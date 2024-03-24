@@ -1,7 +1,5 @@
-import React from "react"
+const Guitar: React.FC<{ guitar: Guitar, addToCart: (item: Guitar) => void }> = ({ guitar, addToCart }) => {
 
-const Guitar = ({ guitar ,addToCart}) => {
-  
   return (
     <>
       <div className="col-md-6 col-lg-4 my-4 row align-items-center">
