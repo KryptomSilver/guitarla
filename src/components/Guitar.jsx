@@ -1,6 +1,6 @@
 import React from "react"
 
-const Guitar = ({ guitar, setCart ,addToCart}) => {
+const Guitar = ({ guitar ,addToCart}) => {
   
   return (
     <>
